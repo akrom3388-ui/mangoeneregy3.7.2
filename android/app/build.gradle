@@ -25,8 +25,8 @@ android {
         applicationId 'uz.mango.monitor'
         minSdk 24
         targetSdk 34
-        versionCode 12
-        versionName '3.7.2'
+        versionCode 13
+        versionName '3.7.3'
         buildConfigField 'String', 'TG_BOT_TOKEN', "\"${tgToken}\""
         buildConfigField 'String', 'TG_CHAT_ID', "\"${tgChat}\""
         buildConfigField 'String', 'SERVER_URL', "\"${project.findProperty('SERVER_URL') ?: 'https://api.example.uz'}\""
